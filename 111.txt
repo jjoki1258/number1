@@ -1,0 +1,1 @@
+selenium을 사용한 steam 크롤링 활용 가능
