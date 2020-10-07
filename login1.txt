@@ -1,0 +1,35 @@
+
+import requests
+s=requests.Session()
+
+
+with requests.Session() as s:
+	
+
+req = request.get('https://github.com/jjoki1258/number1')
+
+html=req.text
+
+steam=steamgame(html,'html.parser')
+
+titles=steam.select()
+
+data={}
+
+for title in my_titles:
+	data[title.text]=title.get('href')
+
+with open(...)
+
+
+
+with requests.Session() as s:
+	req=s.get('https://store.steampowered.com/?l=koreana')
+
+	html=req.text
+
+	header=req.headers
+
+	status=req.status_code
+
+	is_ok=req.ok
